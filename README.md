@@ -7,14 +7,16 @@
 <h4 align="center">
   API REST, desenvolvida em Node.js, de uma aplicação para a transportadora fictícia, chamada FastFeet.
 
+  </br>
+
   **Este projeto faz parte do desafio final da turma 11 do [RocketSeat GoStack Bootcamp](https://rocketseat.com.br/bootcamp)**
 </h4>
 <p align="center">
-  <img alt="GitHub top language" src="">
+  <img alt="GitHub top language" src="https://img.shields.io/github/languages/top/patrickt26/node-fastfeet.svg">
 
-  <img alt="GitHub language count" src="">
+  <img alt="GitHub language count" src="https://img.shields.io/github/languages/count/patrickt26/node-fastfeet.svg">
 
-  <img alt="GitHub" src="">
+  <img alt="GitHub license" src="https://img.shields.io/github/license/patrickt26/node-fastfeet">
 </p>
 
 <p align="center">
