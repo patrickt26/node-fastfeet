@@ -7,8 +7,6 @@
 <h4 align="center">
   API REST, desenvolvida em Node.js, de uma aplicação para a transportadora fictícia, chamada FastFeet.
 
-  </br>
-
   **Este projeto faz parte do desafio final da turma 11 do [RocketSeat GoStack Bootcamp](https://rocketseat.com.br/bootcamp)**
 </h4>
 <p align="center">
@@ -124,7 +122,7 @@ As principais tecnologias utilizadas foram:
 -  [Prettier][prettier](v.1.19.1)
 
 ## :memo: Licença
-Esse projeto está sob a licença MIT. Veja o arquivo [LICENSE](https://github.com/patrickt26/gobarber-backend/blob/master/LICENSE) para mais detalhes.
+Esse projeto está sob a licença MIT. Veja o arquivo [LICENSE](https://github.com/patrickt26/node-fastfeet/blob/master/LICENSE) para mais detalhes.
 
 ---
 
@@ -137,4 +135,4 @@ Feito com ♥ por Patrick Thomaz :wave: [Get in touch!](https://www.linkedin.com
 [vceditconfig]: https://marketplace.visualstudio.com/items?itemName=EditorConfig.EditorConfig
 [vceslint]: https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint
 [prettier]: https://prettier.io
-[database.js]: https://github.com/patrickt26/gobarber-backend/blob/master/src/config/database.js
+[database.js]: https://github.com/patrickt26/node-fastfeet/blob/master/src/config/database.js
