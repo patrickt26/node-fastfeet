@@ -7,6 +7,7 @@ import SessionController from './app/controllers/SessionController';
 import RecipientController from './app/controllers/RecipientController';
 import FileController from './app/controllers/FileController';
 import DeliverymanController from './app/controllers/DeliverymanController';
+import OrderController from './app/controllers/OrderController';
 
 import authMiddleware from './app/middlewares/auth';
 import adminMiddleware from './app/middlewares/admin';
@@ -55,11 +56,20 @@ routes.put('/recipients/:id', RecipientController.update);
 routes.post('/files', upload.single('file'), FileController.store);
 
 /**
- * Rota para entregadores
+ * Rotas para entregadores
  */
 routes.post('/deliveryman', DeliverymanController.store);
 routes.get('/deliveryman', DeliverymanController.index);
 routes.put('/deliveryman/:id', DeliverymanController.update);
 routes.delete('/deliveryman/:id', DeliverymanController.delete);
+
+/**
+ * Rotas para encomendas
+ */
+routes.post('/orders', OrderController.store);
+routes.get('/orders', OrderController.index);
+routes.get('/orders/:id', OrderController.show);
+routes.put('/orders/:id', OrderController.update);
+routes.delete('/orders/:id', OrderController.delete);
 
 export default routes;
