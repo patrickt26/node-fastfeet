@@ -5,6 +5,11 @@
 </h1>
 
 <h4 align="center">
+
+  ( **Em Desenvolvimento** )
+
+  </br>
+
   API REST, desenvolvida em Node.js, de uma aplicação para a transportadora fictícia, chamada FastFeet.
 
   **Este projeto faz parte do desafio final da turma 11 do [RocketSeat GoStack Bootcamp](https://rocketseat.com.br/bootcamp)**
